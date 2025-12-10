@@ -1,0 +1,20 @@
+# Học python
+1. Hàm / funtions
+
+2. Biến / variable
+
+3. Chuỗi / String / str
+
+4. Tham số / Prameter
+  EX: name = Print(*object, sep=' ', end='\n')
+  Code # Ask user for their name and greet them
+name = input("what's your name? ")
+
+5. Số nguyên / int (integer)
+  EX: int(x) + int(y)
+
+6. Số thực / float
+
+7. Định nghĩa / def
+
+8
