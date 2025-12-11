@@ -1,2 +1,3 @@
-print("hello, world ")
-input("Press Enter to exit...")
+name = 1000-100
+print("hello, ", end="")
+print(name)
