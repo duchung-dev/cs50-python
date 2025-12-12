@@ -1,3 +1,3 @@
-name = 1000-100
-print("hello, ", end="")
+name = input("what's your name? ")
+print("hello, ")
 print(name)
