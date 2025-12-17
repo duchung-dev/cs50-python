@@ -19,7 +19,4 @@ print(f"hello, {name}")
 array_reshape(x, dim, order = c("C", "F")): Reshape a Python array.name)
 
 # Split the name into parts (first and last)
-first, last = name.split(" ")
-
-
-
+first, last = name.split(" ")dddd

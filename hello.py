@@ -1,9 +1,13 @@
-# Ask the user for their name
-name = input ("What is your name? ")
+# Create our own function
+# Tạo hàm của riêng chúng ta
+def henrry(to="world"):
+    print("helloo", to)
 
-# Remove spaces and capitalize each word
-name = name.strip().title()
+# Output using our own function
+# Xuất dữ liệu sử dụng hàm của chúng ta
+name = input("What's your name? ")
+henrry(name)
 
-# Greeting the name
-print(f"hello, {name}")
-
+# Output without passing the expected arguments
+# Xuất dữ liệu mà không truyền các đối số mong đợi
+henrry()
