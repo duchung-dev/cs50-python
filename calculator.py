@@ -1,7 +1,6 @@
-def main():
-    x = int(input("what's x? "))
-    print("x squared is", square(x))
+# Tính giá trị của tổng z = x + y
+# thêm giá trị cho x và y, x và y là số nguyên và trả về tổng z
+z = int(input("type x: ", "type y: "))
+print(z)
 
-def square(n):
-    return n * n
-main()
+
