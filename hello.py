@@ -1,8 +1,11 @@
-# This program checks if a number is even or odd
-# Translated to Vietnamese: # Chương trình này kiểm tra một số là chẵn hay lẻ
-x = int(input("What's x? "))
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
 
-if x % 2 == 0:
-    print ("Even")
-else:
-    print ("Odd")
+def is_even(n):
+    return n % 2 == 0
+
+main()
