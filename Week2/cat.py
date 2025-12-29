@@ -1,5 +1,3 @@
-i = 0
-
-while i < 3:
-    print("Meow")
-    i += 1  
+for i in [-9, 0, 1, 2, -3]:
+    if i > 0:
+        print("meow\n" * i, end='')
