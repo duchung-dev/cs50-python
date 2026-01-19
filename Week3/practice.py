@@ -8,5 +8,7 @@ y = float(input("What's y? "))
 
 # Print sum
 # In ra tổng
-z = x + y
-print(z)
+z = (x + y)
+# Format to 2 decimal places
+# In và định dạng đến 2 chữ số thập phân
+print(f"{z:.2f}")  
