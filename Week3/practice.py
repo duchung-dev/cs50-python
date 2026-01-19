@@ -1,7 +1,12 @@
-# Demonstrates addition of two numbers
-# Hiển thị việc cộng hai số
+# Demonstrates (unintended) concatenation strings  
+# Hiển thị việc nối chuỗi (không mong muốn)
 
-x = 1
-y = 2
+# Promt user for two inputs
+# Yêu cầu người dùng nhập hai giá trị
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+
+# Print sum
+# In ra tổng
 z = x + y
 print(z)
