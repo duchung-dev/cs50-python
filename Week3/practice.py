@@ -1,5 +1,5 @@
-# Demonstrates a format string
-# Hiển thị một chuỗi định dạng
+# Demonstrates str functions
+# Hiển thị các hàm xử lý chuỗi trong Python
 
-name = input("What's your name? ")
+name = input("What's your name? ").strip().title()
 print(f"Hello, {name}!")
