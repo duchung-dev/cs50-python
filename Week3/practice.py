@@ -1,14 +1,11 @@
-# Demonstrates (unintended) concatenation strings  
-# Hiển thị việc nối chuỗi (không mong muốn)
+# Demonstrates rounding to nearest int
+# Minh họa làm tròn đến số nguyên gần nhất
 
-# Promt user for two inputs
-# Yêu cầu người dùng nhập hai giá trị
+# Demonstrates fewer variables
+# Minh họa sử dụng ít biến hơn
+
+
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-# Print sum
-# In ra tổng
-z = (x + y)
-# Format to 2 decimal places
-# In và định dạng đến 2 chữ số thập phân
-print(f"{z:.2f}")  
+z = print(round(x + y))
