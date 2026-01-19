@@ -1,5 +1,5 @@
-# demonstrates a function with a positional argument and a named argument
+# Demonstrates a format string
+# Hiển thị một chuỗi định dạng
 
 name = input("What's your name? ")
-print ("Hello, ", end="")
-print(name)
+print(f"Hello, {name}!")
