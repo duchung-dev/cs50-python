@@ -1,10 +1,8 @@
 # Demonstrates conditionals
 # Minh họa các câu lệnh điều kiện 
 
-x = int(input("What's x? "))
-y = int(input("What's y? "))
+students = ["Hermione", "Harry", "Ron"]
 
-if x < y or x > y:
-    print("x is not equal to y")
-else:
-    print("x is equal to y")
+for student in students:
+
+    print(student)
