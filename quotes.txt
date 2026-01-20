@@ -1,0 +1,4 @@
+# Good quotes / Những câu nói hay.
+1. Trung thực học cách đọc tài liệu (docs.python.org)
+2. Code đơn giản / keeping your code simple
+3
