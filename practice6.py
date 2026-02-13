@@ -2,6 +2,7 @@
 # Minh họa các phép so sánh không bằng nhau và toán tử logic
 
 score = int(input("Score: "))
+
 if score >= 85:
     print("Grade: HD")
 elif score >= 75:
