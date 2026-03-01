@@ -1,3 +1,7 @@
+HEAD
+# cs50-python
+CS50's Introduction to programming with Python - exercises &amp; projects
+
 # CS50 Python Exercises / Bài tập Python CS50
 This repo contains Python exercises from the CS50 Course, with explanations and runnable examples 
 Repo này chứa các bài tập Python trong khóa CS50, có giải thích và ví dụ chạy được.
@@ -15,3 +19,4 @@ python hello.py
 - Practice basic Python / Luyện tập Python cơ bản
 - Manage code with Git/Github / Quản lý bẳng Git/Github
 - Build personal portfolio / Xây dựng portfolio cá nhânn
+ dev

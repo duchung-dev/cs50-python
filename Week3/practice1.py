@@ -1,8 +1,10 @@
-# Demonstrates conditionals
-# Minh họa các câu lệnh điều kiện 
+# Demonstrates coninequalities and logical operators
+# Minh họa các phép so sánh và toán tử logic
 
-students = ["Hermione", "Harry", "Ron"]
+x = int(input("What's x? "))
+y = int(input("What's y? "))
 
-for student in students:
-
-    print(student)
+if x < y or x > y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")
